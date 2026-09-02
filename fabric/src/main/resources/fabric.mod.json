@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "smartcities",
+  "version": "${version}",
+  "name": "SmartCities",
+  "description": "A smarter custom city generator mod. Allows for more complex, yet still pleasing, procedural city generation throughout the world.",
+  "authors": [
+    "MisledWater79"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "MIT",
+  "icon": "assets/smartcities/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.misled.smartcities.fabric.SmartcitiesFabric"
+    ],
+    "client": [
+      "org.misled.smartcities.fabric.client.SmartcitiesFabricClient"
+    ]
+  },
+  "mixins": [
+    "smartcities.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "architectury": ">=9.2.14",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

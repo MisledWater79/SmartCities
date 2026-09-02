@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "smartcities"
+version = "${version}"
+displayName = "SmartCities"
+authors = "MisledWater79"
+description = '''
+A smarter custom city generator mod. Allows for more complex, yet still pleasing, procedural city generation throughout the world.
+'''
+#logoFile = ""
+
+[[dependencies.smartcities]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.smartcities]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.smartcities]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.2.14,)"
+ordering = "AFTER"
+side = "BOTH"

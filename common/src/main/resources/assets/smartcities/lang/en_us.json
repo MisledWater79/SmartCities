@@ -1,4 +1,15 @@
 {
   "generator.smartcities.smartcities": "SmartCities",
-  "generator.smartcities.smartcities.info": "Flatter terrain built for procedural cities."
+  "generator.smartcities.smartcities.info": "Flatter terrain built for procedural cities.",
+  "smartcities.gui.tab.title": "SmartCities",
+  "smartcities.gui.customize.title": "SmartCities Settings",
+  "smartcities.gui.customize.profile": "Profile",
+  "smartcities.profile.default": "Default",
+  "smartcities.profile.dense": "Dense City",
+  "smartcities.profile.sparse": "Sparse",
+  "smartcities.profile.buildings_only": "Buildings Only",
+  "smartcities.setting.city_radius": "City Radius",
+  "smartcities.setting.building_density": "Building Density",
+  "smartcities.setting.max_floors": "Max Floors",
+  "smartcities.setting.generate_streets": "Generate Streets"
 }

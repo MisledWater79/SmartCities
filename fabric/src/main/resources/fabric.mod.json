@@ -22,7 +22,11 @@
     ]
   },
   "mixins": [
-    "smartcities.mixins.json"
+    "smartcities.mixins.json",
+    {
+      "config": "smartcities.fabric.mixins.json",
+      "environment": "client"
+    }
   ],
   "depends": {
     "fabricloader": ">=0.19.5",

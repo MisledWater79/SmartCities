@@ -3,12 +3,14 @@
     "minecraft:overworld": {
       "type": "minecraft:overworld",
       "generator": {
-        "type": "minecraft:noise",
-        "biome_source": {
-          "type": "minecraft:multi_noise",
-          "preset": "minecraft:overworld"
-        },
-        "settings": "smartcities:smartcities"
+        "type": "smartcities:city",
+        "base": {
+          "biome_source": {
+            "type": "minecraft:multi_noise",
+            "preset": "minecraft:overworld"
+          },
+          "settings": "smartcities:smartcities"
+        }
       }
     }
   }

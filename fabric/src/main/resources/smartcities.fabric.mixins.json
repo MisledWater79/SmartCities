@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "org.misled.smartcities.fabric.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+    "WorldCreationUiStateMixin"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
